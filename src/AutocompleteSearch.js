@@ -110,7 +110,9 @@ const data = [
   { id: 107, name: 'Jordi El Niño Polla' },
   { id: 108, name: 'Nikkis India' },
   { id: 109, name: 'Narendra Modi' },
-  { id: 110, name: 'Rahul Gandhi' }
+  { id: 110, name: 'Rahul Gandhi' },
+  { id: 111, name: 'Dani Daniels' },
+  { id: 112, name: 'Lana Rhoades' }
   
 ];
 
