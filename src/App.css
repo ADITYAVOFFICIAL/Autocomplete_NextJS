@@ -54,6 +54,39 @@ li:hover {
   background-color: #f0f0f0;
 }
 
+/* New styles for smaller screens */
+@media only screen and (max-width: 600px) {
+  input[type="text"] {
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+    width: 280px;
+    font-size: 16px;
+    outline: none;
+    font-weight: bold;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 320px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  li {
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    border-radius: 17px;
+    margin: 10px;
+  }
+}
+
 /* Navbar.css */
 
 .navbar-menu {
