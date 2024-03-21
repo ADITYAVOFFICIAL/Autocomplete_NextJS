@@ -5,7 +5,8 @@ import './App.css'; // Import the CSS file
 function Footer() {
   return (
     <footer className="footer">
-      <p>&copy; 2024 ADITYA VERMA</p>
+      <hr style={{opacity:"20%",marginBottom:"30px",color:"gray"}}/>
+      <p style={{marginBottom:"10px"}}>&copy; 2024 ADITYA VERMA</p>
     </footer>
   );
 }
