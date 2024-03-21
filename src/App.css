@@ -6,12 +6,13 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5px + 2vmin);
+  font-weight: bold;
   color: black;
 }
 
@@ -20,7 +21,7 @@ input[type="text"] {
   margin: 10px;
   border-radius: 20px;
   border: 2px solid #ccc;
-  width: 300px;
+  width: 350px;
   font-size: 16px;
   outline: none;
   font-weight: bold;
@@ -34,7 +35,7 @@ ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  width: 300px;
+  width: 400px;
   border: 2px solid #ccc;
   border-radius: 20px;
   background-color: #f9f9f9;
@@ -88,4 +89,21 @@ li:hover {
 
 .footer p {
   margin: 0;
+}
+.selected {
+  color: white;
+}
+
+.breathing {
+  animation: breathing 1s infinite alternate; /* Apply the breathing animation */
+}
+
+@keyframes breathing {
+  from {
+    opacity: 0.5; /* Start with reduced opacity */
+  }
+  
+  to {
+    opacity: 1; /* End with full opacity */
+  }
 }

@@ -66,6 +66,9 @@ function AutocompleteSearch() {
 
   return (
     <div>
+      {selectedSuggestion && (
+        <p className='selected breathing'>Selected Option: {selectedSuggestion.name}</p>
+      )}
       <input
         type="text"
         value={searchQuery}
