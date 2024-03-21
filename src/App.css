@@ -54,22 +54,6 @@ li:hover {
   background-color: #f0f0f0;
 }
 
-/* New styles for smaller screens */
-@media only screen and (max-width: 600px) {
-  input[type="text"] {
-    width: calc(100% - 20px); /* Adjust width for smaller screens with some margin */
-    font-size: 18px; /* Reduce font size */
-  }
-
-  ul {
-    width: calc(100% - 20px); /* Adjust width for smaller screens with some margin */
-  }
-
-  li {
-    margin: 5px; /* Reduce margin for smaller screens */
-  }
-}
-
 /* Navbar.css */
 
 .navbar-menu {
